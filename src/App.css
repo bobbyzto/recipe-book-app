@@ -38,7 +38,7 @@ td {
 }
 
 header h1 {
-  font-family: 'Playfair Display SC';
+  font-family: 'Playfair Display SC', serif;
   font-size: 64px;
   text-align: center;
 }
@@ -57,6 +57,8 @@ table {
   max-height: 100px;
   overflow-y: auto;
   text-overflow: ellipsis;
+  text-align: justify;
+  text-justify: inter-character;
 }
 
 /* images */
@@ -95,4 +97,9 @@ tbody tr td:nth-child(4) {
 
 tbody tr td:nth-child(5) {
   width: 30%;
+}
+
+input {
+  object-fit: scale-down;
+  width: 100%;
 }
